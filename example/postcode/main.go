@@ -193,6 +193,8 @@ func randomPlace() {
 }
 
 func main() {
+	fmt.Printf("Version: %s\n", postcode.VERSION)
+
 	executor("Singe postcode lookup", postcodeLookup)
 
 	executor("Bulk postcode lookup", bulkPostcodeLookup)
