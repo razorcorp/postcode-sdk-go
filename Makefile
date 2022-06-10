@@ -34,7 +34,7 @@ release_start: checks
 	$(info Starting releasing for new version v${VERSION})
 
 ifneq ("${BUILD_BRANCH}", "${RELEASE_BRANCH}")
-	$(error Use develop branch to performed a release)
+	$(error Use develop branch to performed a release. Current branch is ${BUILD_BRANCH})
 endif
 
 	$(info Creating release branch)
