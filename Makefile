@@ -3,7 +3,7 @@ OS=$(shell uname)
 NL?="\n"
 SED_OPTS?="-i"
 BUILD_BRANCH=$(shell git rev-parse --abbrev-ref HEAD)
-RELEASE_BRANCH="develop"
+RELEASE_BRANCH=develop
 TAG_PREFIX="v"
 
 VERSION=
