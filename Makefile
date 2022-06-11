@@ -1,10 +1,10 @@
 RELEASE_DATE=$(shell date +"%Y-%m-%d")
 OS=$(shell uname)
-NL?="\n"
-SED_OPTS?="-i"
+NL?=\n
+SED_OPTS?=-i
 BUILD_BRANCH=$(shell git rev-parse --abbrev-ref HEAD)
 RELEASE_BRANCH=develop
-TAG_PREFIX="v"
+TAG_PREFIX=v
 
 VERSION=
 
