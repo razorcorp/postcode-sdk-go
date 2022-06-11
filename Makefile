@@ -25,9 +25,9 @@ ifeq ("${VERSION}", "")
 endif
 
 ifeq ("${OS}", "Darwin")
-	$(warning There maybe `CHANGELOG.md ''` created after release process)
+	$(warning There maybe `CHANGELOG.md.bak` created after release process)
 	$(eval NL := $$\\\n)
-	$(eval SED_OPTS := "-i ''")
+	$(eval SED_OPTS := "-i .bak")
 endif
 
 release_start: checks
@@ -67,6 +67,7 @@ test:
 	$(error Testing not implemented yet)
 
 clean:
-ifeq (,$(wildcard "./CHANGELOG.md ''"))
-	@rm "./CHANGELOG.md ''"
+ifneq ("$(wildcard CHANGELOG.md.bak)","")
+	$(info Removing CHANGELOG.md.bak file)
+	@rm CHANGELOG.md.bak
 endif
