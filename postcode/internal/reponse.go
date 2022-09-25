@@ -3,7 +3,7 @@ package internal
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/praveenprem/postcode-sdk-go/model"
+	"github.com/razorcorp/postcode-sdk-go/model"
 	"io"
 	"log"
 	"net/http"

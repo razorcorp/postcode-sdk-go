@@ -1,4 +1,4 @@
-package postcode
+package postcode_sdk_go
 
 /**
  * Package name: postcode

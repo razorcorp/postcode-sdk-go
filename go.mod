@@ -1,3 +1,3 @@
-module github.com/praveenprem/postcode-sdk-go
+module github.com/razorcorp/postcode-sdk-go
 
 go 1.16

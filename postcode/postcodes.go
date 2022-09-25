@@ -3,8 +3,8 @@ package postcode
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/praveenprem/postcode-sdk-go/model"
-	"github.com/praveenprem/postcode-sdk-go/postcode/internal"
+	"github.com/razorcorp/postcode-sdk-go/model"
+	"github.com/razorcorp/postcode-sdk-go/postcode/internal"
 	"net/http"
 	"strconv"
 	"strings"

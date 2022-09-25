@@ -26,7 +26,7 @@ go mod init postcode-lookup
 
 #### Add SDK Dependency
 ```shell
-go get github.com/praveenprem/postcode-sdk-go
+go get github.com/razorcorp/postcode-sdk-go
 ```
 
 #### Write Code
@@ -35,7 +35,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/praveenprem/postcode-sdk-go/postcode"
+	"github.com/razorcorp/postcode-sdk-go/postcode"
 )
 
 func main() {

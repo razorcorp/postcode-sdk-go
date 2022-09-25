@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/praveenprem/postcode-sdk-go/model"
+	"github.com/razorcorp/postcode-sdk-go/model"
 	"net/http"
 )
 

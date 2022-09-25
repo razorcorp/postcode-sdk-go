@@ -5,7 +5,7 @@ Getting started
 
 To get started working with the SDK setup your project for Go modules, and retrieve the SDK dependency with `go get`
 
-	go get github.com/praveenprem/postcode-sdk-go
+	go get github.com/razorcorp/postcode-sdk-go
 
 Postcode Lookup
 
@@ -15,7 +15,7 @@ This example shows how you can use the postcode_sdk_go SDK to make an API reques
 
 	import (
 		"fmt"
-		"github.com/praveenprem/postcode-sdk-go/postcode"
+		"github.com/razorcorp/postcode-sdk-go/postcode"
 	)
 	
 	func main() {

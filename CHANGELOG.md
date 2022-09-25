@@ -13,5 +13,5 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Initial SDK code completed
 
 
-[Unreleased]: https://github.com/praveenprem/postcode-sdk-go/compare/0.0.1...HEAD
-[0.0.1]: https://github.com/praveenprem/postcode-sdk-go/compare/8ef2b4808cce5409ee64f0204c9b2754f0ddf0ad...0.0.1
+[Unreleased]: https://github.com/razorcorp/postcode-sdk-go/compare/0.0.1...HEAD
+[0.0.1]: https://github.com/razorcorp/postcode-sdk-go/compare/8ef2b4808cce5409ee64f0204c9b2754f0ddf0ad...0.0.1

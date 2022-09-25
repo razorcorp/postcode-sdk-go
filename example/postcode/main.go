@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/praveenprem/postcode-sdk-go/postcode"
+	"github.com/razorcorp/postcode-sdk-go"
+	"github.com/razorcorp/postcode-sdk-go/postcode"
 )
 
 /**
